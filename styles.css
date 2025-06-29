@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 body {
     background-color: white;
     margin: 0;
@@ -74,7 +73,7 @@ ul {
 
 .hero-left h1 {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .hero-left p {
@@ -125,7 +124,7 @@ ul {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .info-cards {
@@ -177,7 +176,7 @@ ul {
     font-size: 24px;
     text-align: right;
     margin-top: 14px;
-    color: #1F2937
+    color: #1F2937;
 }
 
 /* Call to Action Section */
@@ -229,4 +228,85 @@ ul {
     text-align: center;
     padding: 20px 0;
     font-size: 18px;
+}
+
+/* ===========================
+   Responsive Media Queries
+   =========================== */
+
+@media (max-width: 700px) {
+
+    /* Stack hero vertically and reduce padding */
+    .hero-container {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .hero-left h1 {
+        font-size: 32px;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+    }
+
+    .hero-right {
+        margin-top: 20px;
+    }
+
+    /* Info cards wrap better */
+    .info-cards {
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .info-card {
+        max-width: 100%;
+        width: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Header stacks vertically */
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    ul.links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    /* Quote section font size */
+    .quote {
+        font-size: 24px;
+    }
+
+    .author {
+        font-size: 18px;
+    }
+
+    /* CTA stacks vertically */
+    .cta-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .cta-text h3 {
+        font-size: 20px;
+    }
+
+    .cta-text p {
+        font-size: 14px;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 12px 0;
+    }
 }

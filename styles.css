@@ -78,7 +78,7 @@ ul {
 }
 
 .hero-left p {
-    color: #E5E7EB;
+    color: #cdd0d6;
     font-size: 18px;
 }
 
@@ -104,7 +104,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #E5E7EB;
+    color: white;
 }
 
 /* Info Section */
@@ -208,6 +208,7 @@ ul {
 .cta-text p {
     margin: 8px 0 0 0;
     font-size: 16px;
+    color: #dde1e9;
 }
 
 .cta-button {
@@ -218,4 +219,14 @@ ul {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
+}
+
+/* Footer Section */
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
 }

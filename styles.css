@@ -179,3 +179,43 @@ ul {
     margin-top: 14px;
     color: #1F2937
 }
+
+/* Call to Action Section */
+
+.cta-section {
+    background-color: white;
+    padding: 20px 0;
+    margin: 80px auto;
+    color: white;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cta-text h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.cta-text p {
+    margin: 8px 0 0 0;
+    font-size: 16px;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
